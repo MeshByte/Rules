@@ -5,6 +5,7 @@ DOMAIN,appleworldwidedeveloper.sc.omtrdc.net
 DOMAIN,beatselectronicsllc.tt.omtrdc.net
 DOMAIN,e16991.b.akamaiedge.net
 DOMAIN,edge.apple
+DOMAIN,ginione-test.example
 DOMAIN,icons.axm-usercontent-apple.com
 DOMAIN,lookup-api.apple.com.edgekey.net
 DOMAIN,p-events-delivery.akamaized.net
@@ -1493,6 +1494,7 @@ DOMAIN-SUFFIX,spiritclubs.com
 DOMAIN-SUFFIX,store.apple.com.edgekey.net
 DOMAIN-SUFFIX,straightouttasomewhere.com
 DOMAIN-SUFFIX,studiobeatsbydrdre.com
+DOMAIN-SUFFIX,sub.ginione-url-test.example
 DOMAIN-SUFFIX,sulwerphoto.com
 DOMAIN-SUFFIX,sunglassessale2014.com
 DOMAIN-SUFFIX,superearsenjoy.com
@@ -1614,3 +1616,6 @@ USER-AGENT,locationd*
 USER-AGENT,passd*
 
 # 未分类
+
+# DST-PORT
+DST-PORT,8080
