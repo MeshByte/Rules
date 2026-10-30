@@ -1,6 +1,5 @@
 # NAME: Google (Non-AI)
 # DESCRIPTION: 全谷歌生态服务分流规则（已剥离 Gemini、Antigravity、DeepMind 及相关 AI 端点）
-# UPDATED: 2026-10-29
 
 # DOMAIN
 DOMAIN,clients1.google.com
