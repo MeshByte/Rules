@@ -27731,4 +27731,5 @@ IP-CIDR6,2607:9d00:2000:16::3e83:1127/128,no-resolve
 IP-CIDR6,2a0a:f280::/32,no-resolve
 
 # DOMAIN
+DOMAIN,1080xin.com
 DOMAIN,ezone.de5.net
