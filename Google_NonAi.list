@@ -1,5 +1,64 @@
-# NAME: Google (Non-AI)
-# DESCRIPTION: 全谷歌生态服务分流规则（已剥离 Gemini、Antigravity、DeepMind 及相关 AI 端点）
+# NAME: Google 
+
+# Google Gemini Web & App Endpoints
+DOMAIN,gemini.google.com
+DOMAIN,bard.google.com
+
+# Google Antigravity (Agentic Platform, IDE & Background Agent Service)
+DOMAIN,antigravity.google.com
+
+# Google AI Studio & MakerSuite Backend Endpoints
+DOMAIN,aistudio.google.com
+DOMAIN,makersuite.google.com
+DOMAIN,alkalicore-pa.clients6.google.com
+DOMAIN,alkalimakersuite-pa.clients6.google.com
+DOMAIN,alkalipairing-pa.clients6.google.com
+DOMAIN,webchannel-alkalimakersuite-pa.clients6.google.com
+
+# Generative Language APIs & Gateway
+DOMAIN,generativelanguage.googleapis.com
+DOMAIN,content-generativelanguage.googleapis.com
+
+# Google Proactive & Assistant AI Services
+DOMAIN,proactivebackend-pa.googleapis.com
+DOMAIN,robinfrontend-pa.googleapis.com
+
+# Workspace AI & Labs Endpoints
+DOMAIN,waap.google.com
+DOMAIN,waap-pa.clients6.google.com
+DOMAIN,notebooklm.google.com
+DOMAIN,labs.google.com
+DOMAIN,jules.google.com
+
+# Dedicated Google AI Root Domains
+DOMAIN-SUFFIX,antigravity.google
+DOMAIN-SUFFIX,gemini.google
+DOMAIN-SUFFIX,generativeai.google
+DOMAIN-SUFFIX,deepmind.com
+DOMAIN-SUFFIX,deepmind.google
+DOMAIN-SUFFIX,ai.google
+DOMAIN-SUFFIX,ai.google.dev
+DOMAIN-SUFFIX,ai.studio
+DOMAIN-SUFFIX,notebooklm.google
+DOMAIN-SUFFIX,labs.google
+DOMAIN-SUFFIX,experiments.withgoogle.com
+
+USER-AGENT,*Antigravity*
+USER-AGENT,*GoogleAntigravity*
+USER-AGENT,*Gemini*
+USER-AGENT,*GoogleGemini*
+USER-AGENT,*Bard*
+USER-AGENT,*GoogleAI*
+USER-AGENT,*AIStudio*
+USER-AGENT,*com.google.android.apps.antigravity*
+USER-AGENT,*com.google.android.apps.bard*
+
+DOMAIN-KEYWORD,antigravity
+DOMAIN-KEYWORD,colab
+DOMAIN-KEYWORD,deepmind
+DOMAIN-KEYWORD,generativelanguage
+DOMAIN-KEYWORD,makersuite
+
 
 # DOMAIN
 DOMAIN,clients1.google.com
