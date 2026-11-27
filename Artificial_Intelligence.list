@@ -1,156 +1,341 @@
-payload:
-
 # Ai general rules
-DOMAIN,api.statsig.com
-DOMAIN,browser-intake-datadoghq.com
+DOMAIN,cdn.usefathom.com
 DOMAIN,static.cloudflareinsights.com
 DOMAIN-SUFFIX,algolia.net
-DOMAIN-SUFFIX,auth0.com
-DOMAIN-SUFFIX,cloudflare.com
 DOMAIN-SUFFIX,arkoselabs.com
-DOMAIN-SUFFIX,statsigapi.net
+DOMAIN-SUFFIX,ct.sendgrid.net
+DOMAIN-SUFFIX,datadoghq.com
+DOMAIN-WILDCARD,*-datadoghq.com
+DOMAIN-SUFFIX,featureassets.org
 DOMAIN-SUFFIX,featuregates.org
+DOMAIN-SUFFIX,honeycomb.io
 DOMAIN-SUFFIX,identrust.com
 DOMAIN-SUFFIX,intercom.io
 DOMAIN-SUFFIX,intercomcdn.com
 DOMAIN-SUFFIX,launchdarkly.com
+DOMAIN-SUFFIX,prodregistryv2.org
+DOMAIN-SUFFIX,segment.com
 DOMAIN-SUFFIX,segment.io
-DOMAIN-SUFFIX,amazonaws.com
-DOMAIN-SUFFIX,wp.com
+DOMAIN-SUFFIX,segmentify.com
 DOMAIN-SUFFIX,sentry.io
+DOMAIN-SUFFIX,statsig.com
+DOMAIN-SUFFIX,statsigapi.net
 DOMAIN-SUFFIX,stripe.com
+DOMAIN-SUFFIX,stripe.network
+DOMAIN-SUFFIX,stripecdn.com
+DOMAIN-SUFFIX,workos.com
+DOMAIN-SUFFIX,wp.com
 
-# Muse AI
-DOMAIN-SUFFIX,muse.ai
-DOMAIN,production.museai.com
-DOMAIN,connect.facebook.net
-DOMAIN,meta-ohttp-config-prod.fastly-edge.com
-DOMAIN,meta-ohttp-relay-prod.fastly-edge.com
-DOMAIN-SUFFIX,facebook.com
-DOMAIN-SUFFIX,fbcdn.net
+# Apple Intelligence
+DOMAIN-SUFFIX,api-siri-prod.apple.com
+DOMAIN-SUFFIX,apple-relay.akamaized.net
+DOMAIN-SUFFIX,apple-relay.apple.com
+DOMAIN-SUFFIX,apple-relay.cloudflare.com
+DOMAIN-SUFFIX,apple-relay.fastly-edge.com
+DOMAIN-SUFFIX,apple-relay.mask.apple-dns.net
+DOMAIN-SUFFIX,cp2.cloudflare.com
+DOMAIN-SUFFIX,cp4.cloudflare.com
+DOMAIN-SUFFIX,gateway.icloud.com
+DOMAIN-SUFFIX,gspe1-ssl.ls.apple.com
+DOMAIN-SUFFIX,guzzoni.apple.com
+DOMAIN-SUFFIX,smoot.apple.com
 
 # Anthropic/Claude
-DOMAIN,cdn.usefathom.com
+DOMAIN,anthropic-com.ghost.io
+DOMAIN,anthropic.auth0.com
+DOMAIN,anthropic.com.cdn.cloudflare.net
+DOMAIN,servd-anthropic-website.b-cdn.net
 DOMAIN-SUFFIX,anthropic.com
+DOMAIN-SUFFIX,clau.de
 DOMAIN-SUFFIX,claude.ai
 DOMAIN-SUFFIX,claude.com
+DOMAIN-SUFFIX,claudemcpclient.com
+DOMAIN-SUFFIX,claudemcpcontent.com
 DOMAIN-SUFFIX,claudeusercontent.com
+DOMAIN-KEYWORD,sift
+IP-CIDR,160.79.104.0/21,no-resolve
+IP-CIDR6,2607:6bc0::/32,no-resolve
+IP-ASN,399358,no-resolve
 
-# Cursor
-DOMAIN-SUFFIX,cursor.sh
-DOMAIN-SUFFIX,cursor.com
-DOMAIN-SUFFIX,cursor-cdn.com
-DOMAIN-SUFFIX,cursorapi.com
-DOMAIN-SUFFIX,cursorvm.com
-
-#  Dify AI
-DOMAIN-SUFFIX,dify.ai
-
-
-# JetBrains AI
-DOMAIN-SUFFIX,grazie.ai
-  
-# Meta
-DOMAIN-SUFFIX,meta.ai
-DOMAIN-SUFFIX,meta.com
-
-
-# Notebooklm
-DOMAIN-SUFFIX,notebooklm.google.com
-DOMAIN-SUFFIX,notebooklm.google
-
+# OpenAI/ChatGPT
+DOMAIN,cdn.openaimerge.com
+DOMAIN,challenges.cloudflare.com
+DOMAIN,chatgpt.livekit.cloud
+DOMAIN,host.livekit.cloud
+DOMAIN,humb.apple.com
+DOMAIN,images.workoscdn.com
+DOMAIN,openaicom.imgix.net
+DOMAIN,turn.livekit.cloud
+DOMAIN,workos.imgix.net
+DOMAIN-SUFFIX,chat.com
+DOMAIN-SUFFIX,chatgpt.com
+DOMAIN-SUFFIX,chatgpt.site
+DOMAIN-SUFFIX,oaistatic.com
+DOMAIN-SUFFIX,oaistatsig.com
+DOMAIN-SUFFIX,oaiusercontent.com
+DOMAIN-SUFFIX,openai.com
+DOMAIN-SUFFIX,openai.com.cdn.cloudflare.net
+DOMAIN-SUFFIX,openaiapi.com
+DOMAIN-SUFFIX,sora.com
+DOMAIN-WILDCARD,*openai*.azureedge.net
+DOMAIN-WILDCARD,chatgpt*.azurefd.net
+DOMAIN-WILDCARD,chatgpt-async-webps-prod-*.webpubsub.azure.com
+DOMAIN-WILDCARD,openaiapi*.azurefd.net
+DOMAIN-WILDCARD,openaicom*.*.windows.net
+DOMAIN-WILDCARD,openaicom*.azurefd.net
+DOMAIN-KEYWORD,openai
+IP-CIDR,24.199.123.28/32,no-resolve
+IP-CIDR,64.23.132.171/32,no-resolve
+IP-ASN,20473,no-resolve
 
 # Microsoft Copilot
 DOMAIN,api.msn.com
 DOMAIN,assets.msn.com
-DOMAIN,copilot.microsoft.com
+DOMAIN,copilot.cloud.microsoft
+DOMAIN,copilotstudio.microsoft.com
 DOMAIN,gateway.bingviz.microsoft.net
 DOMAIN,gateway.bingviz.microsoftapp.net
 DOMAIN,in.appcenter.ms
 DOMAIN,location.microsoft.com
+DOMAIN,m365copilot.com
 DOMAIN,odc.officeapps.live.com
+DOMAIN,portal.customtranslator.azure.us
 DOMAIN,r.bing.com
 DOMAIN,self.events.data.microsoft.com
-DOMAIN,services.bingapis.com
 DOMAIN,sydney.bing.com
-DOMAIN,www.bing.com
+DOMAIN-SUFFIX,api.cognitive.microsoft.us
 DOMAIN-SUFFIX,api.microsoftapp.net
+DOMAIN-SUFFIX,azureml.ms
 DOMAIN-SUFFIX,bing-shopping.microsoft-falcon.io
+DOMAIN-SUFFIX,bingapis.com
+DOMAIN-SUFFIX,cognitiveservices.azure.com
+DOMAIN-SUFFIX,cognitiveservices.azure.us
+DOMAIN-SUFFIX,copilot.microsoft.com
+DOMAIN-SUFFIX,cortana.ai
 DOMAIN-SUFFIX,edgeservices.bing.com
+DOMAIN-SUFFIX,githubcopilot.com
+DOMAIN-SUFFIX,inference.ml.azure.com
+DOMAIN-SUFFIX,microsoftcloudsummit.com
+DOMAIN-SUFFIX,msunlimitedcloudsummit.com
+DOMAIN-SUFFIX,playwright.azureedge.net
+DOMAIN-SUFFIX,search.windows.net
+DOMAIN-SUFFIX,stt.speech.azure.us
+DOMAIN-WILDCARD,copilot*.githubusercontent.com
 
-# Midjourney
-DOMAIN-SUFFIX,midjourney.com
+# Meta
+DOMAIN-SUFFIX,atmeta.com
+DOMAIN-SUFFIX,llama.com
+DOMAIN-SUFFIX,llamameta.net
+DOMAIN-SUFFIX,meta.ai
+DOMAIN-SUFFIX,meta.com
 
-# OpenAI/ChatGPT
-DOMAIN,chatgpt.livekit.cloud
-DOMAIN,host.livekit.cloud
-DOMAIN-SUFFIX,openai.com.cdn.cloudflare.net
-DOMAIN,turn.livekit.cloud
-DOMAIN-SUFFIX,livekit.cloud
-DOMAIN-SUFFIX,chat.com
-DOMAIN-SUFFIX,chatgpt.com
-DOMAIN-SUFFIX,oaistatic.com
-DOMAIN-SUFFIX,oaistatsig.com
-DOMAIN-SUFFIX,oaiusercontent.com
-DOMAIN-SUFFIX,openaiapi.com
-DOMAIN-SUFFIX,openai.com
-DOMAIN-SUFFIX,sora.com
-DOMAIN-SUFFIX,chatgpt.site
-DOMAIN,cdn.openaimerge.com
-DOMAIN,challenges.cloudflare.com
-DOMAIN,chat.openai.com.cdn.cloudflare.net
-DOMAIN,cdn.workos.com
-DOMAIN,forwarder.workos.com
-DOMAIN,images.workoscdn.com
-DOMAIN,humb.apple.com
-DOMAIN,o207216.ingest.sentry.io
-DOMAIN,o33249.ingest.sentry.io
-DOMAIN,openaiapi-site.azureedge.net
-DOMAIN-WILDCARD,chatgpt-async-webps-prod-*.webpubsub.azure.com
-DOMAIN-WILDCARD,chatgpt*.azurefd.net
-DOMAIN-WILDCARD,openaicom*.*.windows.net
-DOMAIN,openaicomproductionae4b.blob.core.windows.net
-DOMAIN-WILDCARD,openaiapi*.azurefd.net
-DOMAIN-WILDCARD,openaicom*.azurefd.net
-DOMAIN-WILDCARD,*openai*.azureedge.net
-DOMAIN,openaicom-api-bdcpf8c6d2e9atf6.z01.azurefd.net
-DOMAIN,production-openaicom-storage.azureedge.net
-DOMAIN,rum.browser-intake-datadoghq.com
-DOMAIN,setup.workos.com
-DOMAIN,workos.imgix.net
-DOMAIN,openaicom.imgix.net
+# Muse AI
+DOMAIN,connect.facebook.net
+DOMAIN,meta-ohttp-config-prod.fastly-edge.com
+DOMAIN,meta-ohttp-relay-prod.fastly-edge.com
+DOMAIN,production.museai.com
+DOMAIN-SUFFIX,muse.ai
+# 以下两条会影响 Facebook 主站流量，如不需要可自行注释
+DOMAIN-SUFFIX,facebook.com
+DOMAIN-SUFFIX,fbcdn.net
 
-# ChatGPT兜底
-IP-CIDR,24.199.123.28/32,no-resolve
-IP-CIDR,64.23.132.171/32,no-resolve
-IP-ASN,20473,no-resolve
-IP-ASN,399358,no-resolve
-DOMAIN-KEYWORD,openai
-DOMAIN-KEYWORD,openaiapi
-DOMAIN-KEYWORD,openaicom
+# xAI/Grok
+DOMAIN,accounts.spacex.ai
+DOMAIN,auth.grokipedia.com
+DOMAIN,auth.grokusercontent.com
+DOMAIN-SUFFIX,grok.com
+DOMAIN-SUFFIX,x.ai
+DOMAIN-SUFFIX,xai.chronosphere.io
+IP-CIDR,17.253.4.125/32,no-resolve
 
 # Perplexity
+DOMAIN,perplexity-ai.cloudflareaccess.com
+DOMAIN,ppl-ai-file-upload.s3.amazonaws.com
 DOMAIN,pplx-res.cloudinary.com
 DOMAIN-SUFFIX,perplexity.ai
-DOMAIN-SUFFIX,pplx.ai
 DOMAIN-SUFFIX,perplexity.com
+DOMAIN-SUFFIX,pplx.ai
 
 # Poe
 DOMAIN-SUFFIX,poe.com
 DOMAIN-SUFFIX,poecdn.net
 
-# xAI/Grok
-DOMAIN-SUFFIX,x.ai
-DOMAIN-SUFFIX,grok.com
-  
 # Mistral AI
 DOMAIN-SUFFIX,mistral.ai
 
-# Hugging Face
-DOMAIN-SUFFIX,huggingface.co
-DOMAIN-SUFFIX,hf.co
-DOMAIN-SUFFIX,hf.space
+# ByteDance AI (Coze/Cici)
+DOMAIN-SUFFIX,appsflyersdk.com
+DOMAIN-SUFFIX,bytedapm.com
+DOMAIN-SUFFIX,byteintlapi.com
+DOMAIN-SUFFIX,byteoversea.com
+DOMAIN-SUFFIX,cici.com
+DOMAIN-SUFFIX,ciciai.com
+DOMAIN-SUFFIX,ciciaicdn.com
+DOMAIN-SUFFIX,coze.com
+DOMAIN-SUFFIX,dola.com
+DOMAIN-SUFFIX,itobsnssdk.com
+DOMAIN-SUFFIX,oceanapi-i18n.com
+DOMAIN-SUFFIX,pipopay.com
+DOMAIN-SUFFIX,ttwstatic.com
+DOMAIN-SUFFIX,yhgfb-static.com
+
+# Character AI
+DOMAIN-SUFFIX,character.ai
+DOMAIN-SUFFIX,characterai.io
+
+# Dify AI
+DOMAIN-SUFFIX,dify.ai
 
 # Manus
 DOMAIN-SUFFIX,manus.im
 DOMAIN-SUFFIX,manuscdn.com
+
+# Cursor
+DOMAIN,anysphere-binaries.s3.us-east-1.amazonaws.com
+DOMAIN-SUFFIX,cursor-cdn.com
+DOMAIN-SUFFIX,cursor.com
+DOMAIN-SUFFIX,cursor.sh
+DOMAIN-SUFFIX,cursorapi.com
+DOMAIN-SUFFIX,cursorvm.com
+
+# Hugging Face
+DOMAIN-SUFFIX,hf.co
+DOMAIN-SUFFIX,hf.space
+DOMAIN-SUFFIX,huggingface.co
+
+# JetBrains AI
+DOMAIN-SUFFIX,grazie.ai
+DOMAIN-SUFFIX,grazie.aws.intellij.net
+DOMAIN-SUFFIX,jetbrains.ai
+
+# Coding & Dev AI
+DOMAIN,devv.featurebase.app
+DOMAIN,trae-api-sg.mchost.guru
+DOMAIN-SUFFIX,chroniclehq.com
+DOMAIN-SUFFIX,codebuddy.ai
+DOMAIN-SUFFIX,codeium.com
+DOMAIN-SUFFIX,codeiumdata.com
+DOMAIN-SUFFIX,devv.ai
+DOMAIN-SUFFIX,ethyca.com
+DOMAIN-SUFFIX,factory.ai
+DOMAIN-SUFFIX,kiro.dev
+DOMAIN-SUFFIX,trae.ai
+DOMAIN-SUFFIX,traeapi.us
+DOMAIN-SUFFIX,v0.dev
+DOMAIN-SUFFIX,vercel.com
+DOMAIN-SUFFIX,vercel.sh
+DOMAIN-SUFFIX,windsurf.com
+DOMAIN-SUFFIX,zed.dev
+
+# API Providers
+DOMAIN,api.hyperbolic.xyz
+DOMAIN-SUFFIX,gateway.ai.cloudflare.com
+DOMAIN-SUFFIX,hyperbolic.ai
+DOMAIN-SUFFIX,jina.ai
+DOMAIN-SUFFIX,openrouter.ai
+DOMAIN-SUFFIX,together.ai
+
+# Design & Creative AI
+DOMAIN,clio-assets.adobe.com
+DOMAIN,dc-genai-access-provisioning-api.adobe.io
+DOMAIN,dc-genai-content-platform.adobe.io
+DOMAIN,dc-genai-persistence.adobe.io
+DOMAIN,firefly-ai.adobe.io
+DOMAIN,firefly-cliov2.adobe.com
+DOMAIN,firefly-ps.adobe.io
+DOMAIN,firefly.adobe.com
+DOMAIN,mds-cdn.infra.adobesensei.io
+DOMAIN,pre-signed-firefly-prod.s3-accelerate.amazonaws.com
+DOMAIN,pre-signed-firefly-prod.s3.amazonaws.com
+DOMAIN,senseimds.adobe.io
+DOMAIN-SUFFIX,canva.com
+DOMAIN-SUFFIX,canva.dev
+DOMAIN-SUFFIX,canva.site
+DOMAIN-SUFFIX,fal.ai
+DOMAIN-SUFFIX,leonardo.ai
+DOMAIN-SUFFIX,lovart.ai
+DOMAIN-SUFFIX,midjourney.com
+DOMAIN-SUFFIX,sensei.adobe.io
+DOMAIN-SUFFIX,senseicore.adobe.io
+DOMAIN-SUFFIX,smartmockups.com
+DOMAIN-SUFFIX,zeetings.com
+
+# AI Browsers
+DOMAIN-SUFFIX,arc.net
+DOMAIN-SUFFIX,deta.space
+DOMAIN-SUFFIX,deta.surf
+DOMAIN-SUFFIX,diabrowser.com
+DOMAIN-SUFFIX,diabrowser.engineering
+DOMAIN-SUFFIX,strawberrybrowserapi.xyz
+DOMAIN-SUFFIX,strawberrybucket.xyz
+DOMAIN-SUFFIX,thebrowser.company
+IP-CIDR,45.76.221.157/32,no-resolve
+IP-CIDR,81.168.83.93/32,no-resolve
+IP-CIDR,95.111.202.5/32,no-resolve
+IP-CIDR,108.59.2.24/32,no-resolve
+IP-CIDR,116.203.151.74/32,no-resolve
+IP-CIDR,162.159.200.0/24,no-resolve
+IP-CIDR,193.182.111.0/24,no-resolve
+IP-CIDR6,2001:67c:21bc:1e::123/128,no-resolve
+IP-CIDR6,2606:4700:f1::123/128,no-resolve
+IP-CIDR6,2a03:8600::cc/128,no-resolve
+
+# Other AI Apps
+DOMAIN-SUFFIX,ai.com
+DOMAIN-SUFFIX,aiva.ai
+DOMAIN-SUFFIX,any.do
+DOMAIN-SUFFIX,anyword.com
+DOMAIN-SUFFIX,asana.biz
+DOMAIN-SUFFIX,asana.com
+DOMAIN-SUFFIX,avoma.com
+DOMAIN-SUFFIX,beautiful.ai
+DOMAIN-SUFFIX,beedone.co
+DOMAIN-SUFFIX,buffer.com
+DOMAIN-SUFFIX,bufferapp.com
+DOMAIN-SUFFIX,cerebras.ai
+DOMAIN-SUFFIX,clockwise.ai
+DOMAIN-SUFFIX,elevenlabs.io
+DOMAIN-SUFFIX,enhancv.com
+DOMAIN-SUFFIX,feedhive.com
+DOMAIN-SUFFIX,feedhive.io
+DOMAIN-SUFFIX,fireflies.ai
+DOMAIN-SUFFIX,genspark.ai
+DOMAIN-SUFFIX,getclockwise.com
+DOMAIN-SUFFIX,gpustack.ai
+DOMAIN-SUFFIX,grammarly.ai
+DOMAIN-SUFFIX,grammarly.com
+DOMAIN-SUFFIX,groq.com
+DOMAIN-SUFFIX,jasper.ai
+DOMAIN-SUFFIX,kickresume.com
+DOMAIN-SUFFIX,mem.ai
+DOMAIN-SUFFIX,novita.ai
+DOMAIN-SUFFIX,openart.ai
+DOMAIN-SUFFIX,prowritingaid.com
+DOMAIN-SUFFIX,reclaim.ai
+DOMAIN-SUFFIX,runwayml.com
+DOMAIN-SUFFIX,shortwave.app
+DOMAIN-SUFFIX,shortwave.com
+DOMAIN-SUFFIX,slidesgo.com
+DOMAIN-SUFFIX,suno.ai
+DOMAIN-SUFFIX,suno.com
+DOMAIN-SUFFIX,tealhq.com
+DOMAIN-SUFFIX,tldv.io
+DOMAIN-SUFFIX,tokenflux.ai
+DOMAIN-SUFFIX,tome.app
+DOMAIN-SUFFIX,usemotion.com
+DOMAIN-SUFFIX,voyageai.com
+DOMAIN-SUFFIX,wondershare.com
+DOMAIN-SUFFIX,wordtune.com
+DOMAIN-SUFFIX,writer.com
+DOMAIN-SUFFIX,you.com
+DOMAIN-SUFFIX,zapier.com
+
+# NTP (Optional)
+DOMAIN,ntp.ubuntu.com
+DOMAIN,time.aws.com
+DOMAIN,time.cloudflare.com
+DOMAIN,time.windows.com
+DOMAIN-SUFFIX,pool.ntp.org
+DOMAIN-WILDCARD,time*.apple.com
+DOMAIN-WILDCARD,time*.facebook.com
+DOMAIN-WILDCARD,time*.nist.gov
